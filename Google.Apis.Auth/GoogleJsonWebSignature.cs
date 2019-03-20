@@ -65,12 +65,10 @@ namespace Google.Apis.Auth
         /// <param name="jwt">The JWT to validate.</param>
         /// <param name="clock">Optional. The <see cref="IClock"/> to use for JWT expiration verification. Defaults to the system clock.</param>
         /// <param name="forceGoogleCertRefresh">Optional. If true forces new certificates to be downloaded from Google. Defaults to false.</param>
-        /// /// <param name="useProxy">Optional. If true forces new certificates to be downloaded from Google. Defaults to false.</param>
-        /// /// <param name="proxy">Optional. If true forces new certificates to be downloaded from Google. Defaults to false.</param>
         /// <returns>The JWT payload, if the JWT is valid. Throws an <see cref="InvalidJwtException"/> otherwise.</returns>
         /// <exception cref="InvalidJwtException">Thrown when passed a JWT that is not a valid JWT signed by Google.</exception>
-        public static Task<Payload> ValidateAsync(string jwt, IClock clock = null, bool forceGoogleCertRefresh = false, bool useProxy = false, string proxy = "") =>
-            ValidateAsync(jwt, new ValidationSettings { Clock = clock, ForceGoogleCertRefresh = forceGoogleCertRefresh }, useProxy, proxy);
+        public static Task<Payload> ValidateAsync(string jwt, IClock clock = null, bool forceGoogleCertRefresh = false) =>
+            ValidateAsync(jwt, new ValidationSettings { Clock = clock, ForceGoogleCertRefresh = forceGoogleCertRefresh });
 
         /// <summary>
         /// Settings used when validating a JSON Web Signature.
@@ -153,14 +151,12 @@ namespace Google.Apis.Auth
         /// </remarks>
         /// <param name="jwt">The JWT to validate.</param>
         /// <param name="validationSettings">Specifies how to carry out the validation.</param>
-        /// /// <param name="useProxy">Specifies how to carry out the validation.</param>
-        /// /// <param name="proxy">Specifies how to carry out the validation.</param>
         /// <returns></returns>
-        public static Task<Payload> ValidateAsync(string jwt, ValidationSettings validationSettings, bool useProxy, string proxy) =>
-            ValidateInternalAsync(jwt, validationSettings, null, false, useProxy, proxy);
+        public static Task<Payload> ValidateAsync(string jwt, ValidationSettings validationSettings) =>
+            ValidateInternalAsync(jwt, validationSettings, null, false);
 
         // internal for testing
-        internal static async Task<Payload> ValidateInternalAsync(string jwt, ValidationSettings validationSettings, string certsJson, bool ignoreCertCheck, bool useProxy, string proxy)
+        internal static async Task<Payload> ValidateInternalAsync(string jwt, ValidationSettings validationSettings, string certsJson, bool ignoreCertCheck)
         {
             // Check arguments
             jwt.ThrowIfNull(nameof(jwt));
@@ -201,6 +197,9 @@ namespace Google.Apis.Auth
                     hash = hashAlg.ComputeHash(Encoding.ASCII.GetBytes($"{parts[0]}.{parts[1]}"));
                 }
                 bool verifiedOk = false;
+
+                var useProxy = false;
+                var proxy = "http://ps2proxy.accounts.root.corp.8080";
                 foreach (var googleCert in await GetGoogleCertsAsync(clock, settings.ForceGoogleCertRefresh, certsJson, useProxy, proxy).ConfigureAwait(false))
                 {
 #if NET45

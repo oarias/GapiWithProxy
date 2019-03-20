@@ -15,3 +15,10 @@ C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Goo
 C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.dll
 C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.xml
 C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.pdb
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.csprojAssemblyReference.cache
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.csproj.CoreCompileInputs.cache
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.AssemblyInfoInputs.cache
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.AssemblyInfo.cs
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.dll
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.xml
+C:\projects\GAPI\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.pdb
