@@ -31,7 +31,7 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "dependencies": {
-          "Google.Apis.Core": "1.38.0",
+          "Google.Apis.Core": "1.32.0",
           "Newtonsoft.Json": "10.0.2"
         },
         "compile": {
@@ -41,7 +41,7 @@
           "bin/placeholder/Google.Apis.dll": {}
         }
       },
-      "Google.Apis.Core/1.38.0": {
+      "Google.Apis.Core/1.32.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "dependencies": {
@@ -1217,7 +1217,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.3",
         "dependencies": {
-          "Google.Apis.Core": "1.38.0",
+          "Google.Apis.Core": "1.32.0",
           "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "10.0.2",
           "System.Net.Http": "4.3.1",
@@ -1230,7 +1230,7 @@
           "bin/placeholder/Google.Apis.dll": {}
         }
       },
-      "Google.Apis.Core/1.38.0": {
+      "Google.Apis.Core/1.32.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.3",
         "dependencies": {
@@ -4982,7 +4982,7 @@
       "path": "../Google.Apis/Google.Apis.csproj",
       "msbuildProject": "../Google.Apis/Google.Apis.csproj"
     },
-    "Google.Apis.Core/1.38.0": {
+    "Google.Apis.Core/1.32.0": {
       "type": "project",
       "path": "../Google.Apis.Core/Google.Apis.Core.csproj",
       "msbuildProject": "../Google.Apis.Core/Google.Apis.Core.csproj"
@@ -4992,13 +4992,13 @@
     ".NETFramework,Version=v4.5": [
       "ConfigureAwaitChecker.Analyzer >= 1.0.1",
       "Google.Apis >= 1.38.0",
-      "Google.Apis.Core >= 1.38.0",
+      "Google.Apis.Core >= 1.32.0",
       "SourceLink.Create.CommandLine >= 2.8.0"
     ],
     ".NETStandard,Version=v1.3": [
       "ConfigureAwaitChecker.Analyzer >= 1.0.1",
       "Google.Apis >= 1.38.0",
-      "Google.Apis.Core >= 1.38.0",
+      "Google.Apis.Core >= 1.32.0",
       "NETStandard.Library >= 1.6.1",
       "SourceLink.Create.CommandLine >= 2.8.0",
       "System.Diagnostics.Process >= 4.3.0",
