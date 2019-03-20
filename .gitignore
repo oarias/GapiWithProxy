@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs/GoogleApisClient/v15
+/IntegrationTests
+/GoogleApisClient.sln
+/Google.Apis.Tests
+/Google.Apis.PlatformServices
+/Google.Apis.Core
+/Google.Apis.Auth.Tests
+/Google.Apis.Auth.PlatformServices
+/Google.Apis.Auth.Mvc
+/Google.Apis.Auth.AspNetCore.IntegrationTests
+/Google.Apis.Auth.AspNetCore
+/Google.Apis
+/CommonProjectProperties.xml

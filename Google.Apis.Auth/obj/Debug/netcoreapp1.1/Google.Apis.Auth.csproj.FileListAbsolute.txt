@@ -1,0 +1,4 @@
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netcoreapp1.1\Google.Apis.Auth.deps.json
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netcoreapp1.1\Google.Apis.Auth.csprojAssemblyReference.cache
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netcoreapp1.1\Google.Apis.Auth.csproj.CoreCompileInputs.cache
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netcoreapp1.1\Google.Apis.Auth.AssemblyInfo.cs

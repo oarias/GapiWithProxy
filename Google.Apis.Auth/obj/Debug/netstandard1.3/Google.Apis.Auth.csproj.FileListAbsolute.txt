@@ -1,0 +1,17 @@
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Auth.deps.json
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Auth.dll
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Auth.pdb
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Auth.xml
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Core.dll
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.dll
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Core.pdb
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.Core.xml
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.pdb
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\bin\Debug\netstandard1.3\Google.Apis.xml
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.csprojAssemblyReference.cache
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.csproj.CoreCompileInputs.cache
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.AssemblyInfo.cs
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.csproj.CopyComplete
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.dll
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.xml
+C:\projects\googleApis\Src\Support\Google.Apis.Auth\obj\Debug\netstandard1.3\Google.Apis.Auth.pdb
